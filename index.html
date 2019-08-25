@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character Customization</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="user-title">
+            <h2>Mon Personnage</h2>
+        </div>
+        <div id="userCharacter" class="user-characters">
+            <div id="hair" class="basic"></div>
+            <div id="eyes" class="basic"></div>
+            <div id="nose" class="basic"></div>
+            <div id="mouth" class="basic"></div>
+        </div>
+        <div class="eyes-title">
+            <h2>Choix des yeux</h2>
+        </div>
+        <div class="eyes-choose">
+            <div class="eyes basic" onclick="chooseEyes(this)" data-type="eyes" data-name="basic"></div>
+            <div class="eyes secondary" onclick="chooseEyes(this)" data-type="eyes" data-name="secondary"></div>
+            <div class="eyes third" onclick="chooseEyes(this)" data-type="eyes" data-name="third"></div>
+            <div class="eyes fourth" onclick="chooseEyes(this)" data-type="eyes" data-name="fourth"></div>
+            <div class="eyes fifth" onclick="chooseEyes(this)" data-type="eyes" data-name="fifth"></div>
+        </div>
+
+        <div class="hair-title">
+                <h2>Choix des cheveux</h2>
+        </div>
+        <div class="hair-choose">
+            <div class="hair basic" onclick="chooseHair(this)" data-type="hair" data-name="basic"></div>
+            <div class="hair secondary" onclick="chooseHair(this)" data-type="hair" data-name="secondary"></div>
+            <div class="hair third" onclick="chooseHair(this)" data-type="hair" data-name="third"></div>
+            <div class="hair fourth" onclick="chooseHair(this)" data-type="hair" data-name="fourth"></div>
+            <div class="hair fifth" onclick="chooseHair(this)" data-type="hair" data-name="fifth"></div>
+        </div>
+
+        <div class="mouth-title">
+            <h2>Choix de la bouche</h2>
+        </div>
+        <div class="mouth-choose">
+            <div class="mouth basic" onclick="chooseMouth(this)" data-type="mouth" data-name="basic"></div>
+            <div class="mouth secondary" onclick="chooseMouth(this)" data-type="mouth" data-name="secondary"></div>
+            <div class="mouth third" onclick="chooseMouth(this)" data-type="mouth" data-name="third"></div>
+            <div class="mouth fourth" onclick="chooseMouth(this)" data-type="mouth" data-name="fourth"></div>
+            <div class="mouth fifth" onclick="chooseMouth(this)" data-type="mouth" data-name="fifth"></div>
+        </div>
+
+        <div class="nose-title">
+            <h2>Choix du nez</h2>
+        </div>
+        <div class="nose-choose">
+            <div class="nose basic" onclick="chooseNose(this)" data-type="nose" data-name="basic"></div>
+            <div class="nose secondary" onclick="chooseNose(this)" data-type="nose" data-name="secondary"></div>
+            <div class="nose third" onclick="chooseNose(this)" data-type="nose" data-name="third"></div>
+            <div class="nose fourth" onclick="chooseNose(this)" data-type="nose" data-name="fourth"></div>
+            <div class="nose fifth" onclick="chooseNose(this)" data-type="nose" data-name="fifth"></div>
+        </div>
+    </div>
+    <script src="./assets/js/characters/character.js"></script>
+</body>
+</html>

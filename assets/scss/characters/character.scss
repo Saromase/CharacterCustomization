@@ -1,0 +1,32 @@
+$ImageCharacterPath : '#{$ImagesRoot}characters/Basic/';
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+/* */
+.user-title {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row: 1;
+    margin : auto;
+}
+
+.user-characters {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row: 2;
+    margin : auto;
+}
+
+#userCharacter {
+    background-image: url('#{$ImageCharacterPath}Character.svg');
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px;
+    background-color: lightslategrey;
+    position: relative;
+}

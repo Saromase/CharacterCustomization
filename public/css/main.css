@@ -1,0 +1,420 @@
+/*
+  * Import du Css des Personnages
+*/
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(100px, auto); }
+
+/* */
+.user-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 1;
+  margin: auto; }
+
+.user-characters {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 2;
+  margin: auto; }
+
+#userCharacter {
+  background-image: url("../images/characters/Basic/Character.svg");
+  background-size: 200px 300px;
+  height: 300px;
+  width: 200px;
+  background-color: lightslategrey;
+  position: relative; }
+
+/**
+  * Titre du choix
+*/
+.eyes-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 3;
+  margin: auto; }
+
+.eyes-choose {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px; }
+  .eyes-choose .eyes {
+    margin: auto;
+    border: solid #d3d3d3 2px;
+    background-color: lightslategrey; }
+    .eyes-choose .eyes.basic {
+      background-image: url("../images/characters/Basic/Eyes/Eyes.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .eyes-choose .eyes.basic:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Eyes/Eyes.svg"); }
+    .eyes-choose .eyes.secondary {
+      background-image: url("../images/characters/Basic/Eyes/Eyes2.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .eyes-choose .eyes.secondary:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Eyes/Eyes2.svg"); }
+    .eyes-choose .eyes.third {
+      background-image: url("../images/characters/Basic/Eyes/Eyes3.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .eyes-choose .eyes.third:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Eyes/Eyes3.svg"); }
+    .eyes-choose .eyes.fourth {
+      background-image: url("../images/characters/Basic/Eyes/Eyes4.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .eyes-choose .eyes.fourth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Eyes/Eyes4.svg"); }
+    .eyes-choose .eyes.fifth {
+      background-image: url("../images/characters/Basic/Eyes/Eyes5.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .eyes-choose .eyes.fifth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Eyes/Eyes5.svg"); }
+
+#eyes {
+  z-index: 14;
+  position: absolute; }
+  #eyes.basic {
+    background-image: url("../images/characters/Basic/Eyes/Eyes.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #eyes.secondary {
+    background-image: url("../images/characters/Basic/Eyes/Eyes2.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #eyes.third {
+    background-image: url("../images/characters/Basic/Eyes/Eyes3.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #eyes.fourth {
+    background-image: url("../images/characters/Basic/Eyes/Eyes4.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #eyes.fifth {
+    background-image: url("../images/characters/Basic/Eyes/Eyes5.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+
+.hair-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 5;
+  margin: auto; }
+
+.hair-choose {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 6;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px; }
+  .hair-choose .hair {
+    margin: auto;
+    border: solid #d3d3d3 2px;
+    background-color: lightslategrey; }
+    .hair-choose .hair.basic {
+      background-image: url("../images/characters/Basic/Hair/Hair.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .hair-choose .hair.basic:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Hair/Hair.svg"); }
+    .hair-choose .hair.secondary {
+      background-image: url("../images/characters/Basic/Hair/Hair2.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .hair-choose .hair.secondary:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Hair/Hair2.svg"); }
+    .hair-choose .hair.third {
+      background-image: url("../images/characters/Basic/Hair/Hair3.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .hair-choose .hair.third:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Hair/Hair3.svg"); }
+    .hair-choose .hair.fourth {
+      background-image: url("../images/characters/Basic/Hair/Hair4.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .hair-choose .hair.fourth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Hair/Hair4.svg"); }
+    .hair-choose .hair.fifth {
+      background-image: url("../images/characters/Basic/Hair/Hair5.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .hair-choose .hair.fifth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Hair/Hair5.svg"); }
+
+#hair {
+  z-index: 12;
+  position: absolute; }
+  #hair.basic {
+    background-image: url("../images/characters/Basic/Hair/Hair.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #hair.secondary {
+    background-image: url("../images/characters/Basic/Hair/Hair2.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #hair.third {
+    background-image: url("../images/characters/Basic/Hair/Hair3.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #hair.fourth {
+    background-image: url("../images/characters/Basic/Hair/Hair4.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #hair.fifth {
+    background-image: url("../images/characters/Basic/Hair/Hair5.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+
+.mouth-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 7;
+  margin: auto; }
+
+.mouth-choose {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 8;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px; }
+  .mouth-choose .mouth {
+    margin: auto;
+    border: solid #d3d3d3 2px;
+    background-color: lightslategrey; }
+    .mouth-choose .mouth.basic {
+      background-image: url("../images/characters/Basic/Mouth/Mouth.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .mouth-choose .mouth.basic:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Mouth/Mouth.svg"); }
+    .mouth-choose .mouth.secondary {
+      background-image: url("../images/characters/Basic/Mouth/Mouth2.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .mouth-choose .mouth.secondary:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Mouth/Mouth2.svg"); }
+    .mouth-choose .mouth.third {
+      background-image: url("../images/characters/Basic/Mouth/Mouth3.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .mouth-choose .mouth.third:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Mouth/Mouth3.svg"); }
+    .mouth-choose .mouth.fourth {
+      background-image: url("../images/characters/Basic/Mouth/Mouth4.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .mouth-choose .mouth.fourth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Mouth/Mouth4.svg"); }
+    .mouth-choose .mouth.fifth {
+      background-image: url("../images/characters/Basic/Mouth/Mouth5.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .mouth-choose .mouth.fifth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Mouth/Mouth5.svg"); }
+
+#mouth {
+  z-index: 11;
+  position: absolute; }
+  #mouth.basic {
+    background-image: url("../images/characters/Basic/Mouth/Mouth.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #mouth.secondary {
+    background-image: url("../images/characters/Basic/Mouth/Mouth2.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #mouth.third {
+    background-image: url("../images/characters/Basic/Mouth/Mouth3.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #mouth.fourth {
+    background-image: url("../images/characters/Basic/Mouth/Mouth4.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #mouth.fifth {
+    background-image: url("../images/characters/Basic/Mouth/Mouth5.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+
+.nose-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row: 9;
+  margin: auto; }
+
+.nose-choose {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 10;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 20px; }
+  .nose-choose .nose {
+    margin: auto;
+    border: solid #d3d3d3 2px;
+    background-color: lightslategrey; }
+    .nose-choose .nose.basic {
+      background-image: url("../images/characters/Basic/Nose/Nose.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .nose-choose .nose.basic:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Nose/Nose.svg"); }
+    .nose-choose .nose.secondary {
+      background-image: url("../images/characters/Basic/Nose/Nose2.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .nose-choose .nose.secondary:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Nose/Nose2.svg"); }
+    .nose-choose .nose.third {
+      background-image: url("../images/characters/Basic/Nose/Nose3.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .nose-choose .nose.third:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Nose/Nose3.svg"); }
+    .nose-choose .nose.fourth {
+      background-image: url("../images/characters/Basic/Nose/Nose4.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .nose-choose .nose.fourth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Nose/Nose4.svg"); }
+    .nose-choose .nose.fifth {
+      background-image: url("../images/characters/Basic/Nose/Nose5.svg");
+      background-size: 100px 150px;
+      height: 150px;
+      width: 100px; }
+      .nose-choose .nose.fifth:hover {
+        height: 300px;
+        width: 200px;
+        background-size: 200px 300px;
+        background-image: url("../images/characters/Basic/Nose/Nose5.svg"); }
+
+#nose {
+  z-index: 10;
+  position: absolute; }
+  #nose.basic {
+    background-image: url("../images/characters/Basic/Nose/Nose.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #nose.secondary {
+    background-image: url("../images/characters/Basic/Nose/Nose2.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #nose.third {
+    background-image: url("../images/characters/Basic/Nose/Nose3.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #nose.fourth {
+    background-image: url("../images/characters/Basic/Nose/Nose4.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }
+  #nose.fifth {
+    background-image: url("../images/characters/Basic/Nose/Nose5.svg");
+    background-size: 200px 300px;
+    height: 300px;
+    width: 200px; }

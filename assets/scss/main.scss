@@ -1,0 +1,12 @@
+// Variables pour le Css
+
+$ImagesRoot : '../images/';
+
+/*
+  * Import du Css des Personnages
+*/
+@import 'characters/character';
+@import 'characters/eyes';
+@import 'characters/hair';
+@import 'characters/mouth';
+@import 'characters/nose';

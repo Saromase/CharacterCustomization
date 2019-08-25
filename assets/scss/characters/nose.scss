@@ -1,0 +1,134 @@
+$ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
+
+.nose-title {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row: 9;
+    margin : auto;
+}
+
+.nose-choose {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row: 10;
+    display : grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+
+    .nose {
+        margin: auto;
+        border: solid #d3d3d3 2px;
+        background-color : lightslategrey;
+
+        &.basic {
+            background-image: url('#{$ImageNosePath}Nose.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageNosePath}Nose.svg');
+            }
+        }
+
+        &.secondary {
+            background-image: url('#{$ImageNosePath}Nose2.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageNosePath}Nose2.svg');
+            }
+        }
+
+        &.third {
+            background-image: url('#{$ImageNosePath}Nose3.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageNosePath}Nose3.svg');
+            }
+        }
+
+        &.fourth {
+            background-image: url('#{$ImageNosePath}Nose4.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageNosePath}Nose4.svg');
+            }
+        }
+
+        &.fifth {
+            background-image: url('#{$ImageNosePath}Nose5.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageNosePath}Nose5.svg');
+            }
+        }
+    }
+}
+
+#nose {
+    z-index : 10;
+    position: absolute;
+
+    &.basic {
+        background-image: url('#{$ImageNosePath}Nose.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.secondary {
+        background-image: url('#{$ImageNosePath}Nose2.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.third {
+        background-image: url('#{$ImageNosePath}Nose3.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fourth {
+        background-image: url('#{$ImageNosePath}Nose4.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fifth {
+        background-image: url('#{$ImageNosePath}Nose5.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+}

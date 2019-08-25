@@ -1,0 +1,134 @@
+$ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
+
+.hair-title {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row: 5;
+    margin : auto;
+}
+
+.hair-choose {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row: 6;
+    display : grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+
+    .hair {
+        margin: auto;
+        border: solid #d3d3d3 2px;
+        background-color : lightslategrey;
+
+        &.basic {
+            background-image: url('#{$ImageHairPath}Hair.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageHairPath}Hair.svg');
+            }
+        }
+
+        &.secondary {
+            background-image: url('#{$ImageHairPath}Hair2.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageHairPath}Hair2.svg');
+            }
+        }
+
+        &.third {
+            background-image: url('#{$ImageHairPath}Hair3.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageHairPath}Hair3.svg');
+            }
+        }
+
+        &.fourth {
+            background-image: url('#{$ImageHairPath}Hair4.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageHairPath}Hair4.svg');
+            }
+        }
+
+        &.fifth {
+            background-image: url('#{$ImageHairPath}Hair5.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageHairPath}Hair5.svg');
+            }
+        }
+    }
+}
+
+#hair {
+    z-index: 12;
+    position: absolute;
+
+    &.basic {
+        background-image: url('#{$ImageHairPath}Hair.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.secondary {
+        background-image: url('#{$ImageHairPath}Hair2.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.third {
+        background-image: url('#{$ImageHairPath}Hair3.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fourth {
+        background-image: url('#{$ImageHairPath}Hair4.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fifth {
+        background-image: url('#{$ImageHairPath}Hair5.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+}

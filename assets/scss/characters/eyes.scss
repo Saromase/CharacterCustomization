@@ -1,0 +1,147 @@
+$ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
+
+/**
+  * Titre du choix
+*/
+.eyes-title {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    grid-row: 3;
+    margin : auto;
+}
+
+
+
+
+
+.eyes-choose {
+    grid-column-start: 1; 
+    grid-column-end: 4;
+    grid-row: 4;
+    display : grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+
+    .eyes {
+        margin: auto;
+        border: solid #d3d3d3 2px;
+        background-color : lightslategrey;
+
+        &.basic {
+            background-image: url('#{$ImageEyesPath}Eyes.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageEyesPath}Eyes.svg');
+            }
+        }
+
+        &.secondary {
+            background-image: url('#{$ImageEyesPath}Eyes2.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageEyesPath}Eyes2.svg');
+            }
+        }
+
+        &.third {
+            background-image: url('#{$ImageEyesPath}Eyes3.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageEyesPath}Eyes3.svg');
+            }
+        }
+
+        &.fourth {
+            background-image: url('#{$ImageEyesPath}Eyes4.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageEyesPath}Eyes4.svg');
+            }
+        }
+
+        &.fifth {
+            background-image: url('#{$ImageEyesPath}Eyes5.svg');
+            background-size: 100px 150px;
+            height: 150px;
+            width: 100px;
+
+            &:hover {
+                height: 300px;
+                width: 200px;
+                background-size: 200px 300px;
+                background-image: url('#{$ImageEyesPath}Eyes5.svg');
+            }
+        }
+    }
+}
+
+
+
+
+
+#eyes {
+    z-index: 14;
+    position: absolute;
+
+    &.basic {
+        background-image: url('#{$ImageEyesPath}Eyes.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.secondary {
+        background-image: url('#{$ImageEyesPath}Eyes2.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.third {
+        background-image: url('#{$ImageEyesPath}Eyes3.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fourth {
+        background-image: url('#{$ImageEyesPath}Eyes4.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+
+    &.fifth {
+        background-image: url('#{$ImageEyesPath}Eyes5.svg');
+        background-size: 200px 300px;
+        height: 300px;
+        width: 200px;
+    }
+}
+
+
+
