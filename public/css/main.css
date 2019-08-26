@@ -35,7 +35,8 @@
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row: 3;
-  margin: auto; }
+  margin: auto;
+  font-size: 1.5em; }
 
 .eyes-choose {
   grid-column-start: 1;
@@ -50,6 +51,7 @@
     background-color: lightslategrey; }
     .eyes-choose .eyes.basic {
       background-image: url("../images/characters/Basic/Eyes/Eyes.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -58,6 +60,7 @@
         transition: all 200ms ease; }
     .eyes-choose .eyes.secondary {
       background-image: url("../images/characters/Basic/Eyes/Eyes2.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -66,6 +69,7 @@
         transition: all 200ms ease; }
     .eyes-choose .eyes.third {
       background-image: url("../images/characters/Basic/Eyes/Eyes3.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -74,6 +78,7 @@
         transition: all 200ms ease; }
     .eyes-choose .eyes.fourth {
       background-image: url("../images/characters/Basic/Eyes/Eyes4.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -82,6 +87,7 @@
         transition: all 200ms ease; }
     .eyes-choose .eyes.fifth {
       background-image: url("../images/characters/Basic/Eyes/Eyes5.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -137,6 +143,7 @@
     background-color: lightslategrey; }
     .hair-choose .hair.basic {
       background-image: url("../images/characters/Basic/Hair/Hair.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -145,6 +152,7 @@
         transition: all 200ms ease; }
     .hair-choose .hair.secondary {
       background-image: url("../images/characters/Basic/Hair/Hair2.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -153,6 +161,7 @@
         transition: all 200ms ease; }
     .hair-choose .hair.third {
       background-image: url("../images/characters/Basic/Hair/Hair3.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -161,6 +170,7 @@
         transition: all 200ms ease; }
     .hair-choose .hair.fourth {
       background-image: url("../images/characters/Basic/Hair/Hair4.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -169,6 +179,7 @@
         transition: all 200ms ease; }
     .hair-choose .hair.fifth {
       background-image: url("../images/characters/Basic/Hair/Hair5.svg");
+      background-position: center;
       background-size: 100px 150px;
       height: 150px;
       width: 100px; }
@@ -224,7 +235,8 @@
     background-color: lightslategrey; }
     .mouth-choose .mouth.basic {
       background-image: url("../images/characters/Basic/Mouth/Mouth.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .mouth-choose .mouth.basic:hover {
@@ -232,7 +244,8 @@
         transition: all 200ms ease; }
     .mouth-choose .mouth.secondary {
       background-image: url("../images/characters/Basic/Mouth/Mouth2.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .mouth-choose .mouth.secondary:hover {
@@ -240,7 +253,8 @@
         transition: all 200ms ease; }
     .mouth-choose .mouth.third {
       background-image: url("../images/characters/Basic/Mouth/Mouth3.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .mouth-choose .mouth.third:hover {
@@ -248,7 +262,8 @@
         transition: all 200ms ease; }
     .mouth-choose .mouth.fourth {
       background-image: url("../images/characters/Basic/Mouth/Mouth4.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .mouth-choose .mouth.fourth:hover {
@@ -256,7 +271,8 @@
         transition: all 200ms ease; }
     .mouth-choose .mouth.fifth {
       background-image: url("../images/characters/Basic/Mouth/Mouth5.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .mouth-choose .mouth.fifth:hover {
@@ -311,7 +327,8 @@
     background-color: lightslategrey; }
     .nose-choose .nose.basic {
       background-image: url("../images/characters/Basic/Nose/Nose.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .nose-choose .nose.basic:hover {
@@ -319,7 +336,8 @@
         transition: all 200ms ease; }
     .nose-choose .nose.secondary {
       background-image: url("../images/characters/Basic/Nose/Nose2.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .nose-choose .nose.secondary:hover {
@@ -327,7 +345,8 @@
         transition: all 200ms ease; }
     .nose-choose .nose.third {
       background-image: url("../images/characters/Basic/Nose/Nose3.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .nose-choose .nose.third:hover {
@@ -335,7 +354,8 @@
         transition: all 200ms ease; }
     .nose-choose .nose.fourth {
       background-image: url("../images/characters/Basic/Nose/Nose4.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .nose-choose .nose.fourth:hover {
@@ -343,7 +363,8 @@
         transition: all 200ms ease; }
     .nose-choose .nose.fifth {
       background-image: url("../images/characters/Basic/Nose/Nose5.svg");
-      background-size: 100px 150px;
+      background-position: center;
+      background-size: 200px 300px;
       height: 150px;
       width: 100px; }
       .nose-choose .nose.fifth:hover {

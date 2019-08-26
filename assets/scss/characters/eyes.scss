@@ -8,7 +8,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
     grid-column-end: 3;
     grid-row: 3;
     margin : auto;
-
+    font-size : 1.5em;
 }
 
 
@@ -29,48 +29,23 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
         background-color : lightslategrey;
 
         &.basic {
-            background-image: url('#{$ImageEyesPath}Eyes.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover("eyes-title");
+            @include CharacterCustomizationSize('#{$ImageEyesPath}Eyes.svg', 'normal');
         }
 
         &.secondary {
-            background-image: url('#{$ImageEyesPath}Eyes2.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover("eyes-title");
+             @include CharacterCustomizationSize('#{$ImageEyesPath}Eyes2.svg', 'normal');
         }
 
         &.third {
-            background-image: url('#{$ImageEyesPath}Eyes3.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover("eyes-title");
+            @include CharacterCustomizationSize('#{$ImageEyesPath}Eyes3.svg', 'normal');
         }
 
         &.fourth {
-            background-image: url('#{$ImageEyesPath}Eyes4.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover("eyes-title");
+            @include CharacterCustomizationSize('#{$ImageEyesPath}Eyes4.svg', 'normal');
         }
 
         &.fifth {
-            background-image: url('#{$ImageEyesPath}Eyes5.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover("eyes-title");
+            @include CharacterCustomizationSize('#{$ImageEyesPath}Eyes5.svg', 'normal');
         }
     }
 }

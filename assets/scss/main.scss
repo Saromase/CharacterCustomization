@@ -3,11 +3,29 @@
 $ImagesRoot : '../images/';
 
 // Mixin
-@mixin CharacterResizeHover($selector) {
+@mixin CharacterResizeHover {
   &:hover {
     transform : scale(1.8);
     transition : all 200ms ease;
   }
+}
+
+@mixin CharacterCustomizationSize ($path, $size) {
+  background-image: url($path);
+  background-position: center;
+  
+  @if $size == 'normal' {
+    background-size: 100px 150px;
+  }
+
+  @if $size == 'big' {
+    background-size: 200px 300px;
+  }
+
+  height: 150px;
+  width: 100px;
+
+  @include CharacterResizeHover;
 }
 
 /*

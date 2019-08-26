@@ -21,49 +21,23 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
         background-color : lightslategrey;
 
         &.basic {
-            background-image: url('#{$ImageHairPath}Hair.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-
-            @include CharacterResizeHover('hair-title');
+            @include CharacterCustomizationSize('#{$ImageHairPath}Hair.svg', 'normal');
         }
 
         &.secondary {
-            background-image: url('#{$ImageHairPath}Hair2.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('hair-title');
+            @include CharacterCustomizationSize('#{$ImageHairPath}Hair2.svg', 'normal');
         }
 
         &.third {
-            background-image: url('#{$ImageHairPath}Hair3.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('hair-title');
+            @include CharacterCustomizationSize('#{$ImageHairPath}Hair3.svg', 'normal');
         }
 
         &.fourth {
-            background-image: url('#{$ImageHairPath}Hair4.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('hair-title');
+            @include CharacterCustomizationSize('#{$ImageHairPath}Hair4.svg', 'normal');
         }
 
         &.fifth {
-            background-image: url('#{$ImageHairPath}Hair5.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('hair-title');
+            @include CharacterCustomizationSize('#{$ImageHairPath}Hair5.svg', 'normal');
         }
     }
 }

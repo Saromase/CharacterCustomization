@@ -21,49 +21,23 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
         background-color : lightslategrey;
 
         &.basic {
-            background-image: url('#{$ImageMouthPath}Mouth.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-
-            @include CharacterResizeHover('mouth-title');
+            @include CharacterCustomizationSize('#{$ImageMouthPath}Mouth.svg', 'big');
         }
 
         &.secondary {
-            background-image: url('#{$ImageMouthPath}Mouth2.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('mouth-title');
+            @include CharacterCustomizationSize('#{$ImageMouthPath}Mouth2.svg', 'big');
         }
 
         &.third {
-            background-image: url('#{$ImageMouthPath}Mouth3.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('mouth-title');
+            @include CharacterCustomizationSize('#{$ImageMouthPath}Mouth3.svg', 'big');
         }
 
         &.fourth {
-            background-image: url('#{$ImageMouthPath}Mouth4.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('mouth-title');
+            @include CharacterCustomizationSize('#{$ImageMouthPath}Mouth4.svg', 'big');
         }
 
         &.fifth {
-            background-image: url('#{$ImageMouthPath}Mouth5.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('mouth-title');
+            @include CharacterCustomizationSize('#{$ImageMouthPath}Mouth5.svg', 'big');
         }
     }
 }

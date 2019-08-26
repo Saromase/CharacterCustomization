@@ -21,49 +21,23 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
         background-color : lightslategrey;
 
         &.basic {
-            background-image: url('#{$ImageNosePath}Nose.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-
-            @include CharacterResizeHover('nose-title');
+            @include CharacterCustomizationSize('#{$ImageNosePath}Nose.svg', 'big');
         }
 
         &.secondary {
-            background-image: url('#{$ImageNosePath}Nose2.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('nose-title');
+            @include CharacterCustomizationSize('#{$ImageNosePath}Nose2.svg', 'big');
         }
 
         &.third {
-            background-image: url('#{$ImageNosePath}Nose3.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('nose-title');
+            @include CharacterCustomizationSize('#{$ImageNosePath}Nose3.svg', 'big');
         }
 
         &.fourth {
-            background-image: url('#{$ImageNosePath}Nose4.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('nose-title');
+            @include CharacterCustomizationSize('#{$ImageNosePath}Nose4.svg', 'big');
         }
 
         &.fifth {
-            background-image: url('#{$ImageNosePath}Nose5.svg');
-            background-size: 100px 150px;
-            height: 150px;
-            width: 100px;
-
-            @include CharacterResizeHover('nose-title');
+            @include CharacterCustomizationSize('#{$ImageNosePath}Nose5.svg', 'big');
         }
     }
 }
