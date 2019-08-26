@@ -27,12 +27,7 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
             width: 100px;
 
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageMouthPath}Mouth.svg');
-            }
+            @include CharacterResizeHover('mouth-title');
         }
 
         &.secondary {
@@ -41,12 +36,7 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageMouthPath}Mouth2.svg');
-            }
+            @include CharacterResizeHover('mouth-title');
         }
 
         &.third {
@@ -55,12 +45,7 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageMouthPath}Mouth3.svg');
-            }
+            @include CharacterResizeHover('mouth-title');
         }
 
         &.fourth {
@@ -69,12 +54,7 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageMouthPath}Mouth4.svg');
-            }
+            @include CharacterResizeHover('mouth-title');
         }
 
         &.fifth {
@@ -83,12 +63,7 @@ $ImageMouthPath : '#{$ImagesRoot}characters/Basic/Mouth/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageMouthPath}Mouth5.svg');
-            }
+            @include CharacterResizeHover('mouth-title');
         }
     }
 }

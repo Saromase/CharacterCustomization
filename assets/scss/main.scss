@@ -2,8 +2,16 @@
 
 $ImagesRoot : '../images/';
 
+// Mixin
+@mixin CharacterResizeHover($selector) {
+  &:hover {
+    transform : scale(1.8);
+    transition : all 200ms ease;
+  }
+}
+
 /*
-  * Import du Css des Personnages
+  Import du Css des Personnages
 */
 @import 'characters/character';
 @import 'characters/eyes';

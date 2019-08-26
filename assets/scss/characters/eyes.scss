@@ -8,6 +8,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
     grid-column-end: 3;
     grid-row: 3;
     margin : auto;
+
 }
 
 
@@ -33,12 +34,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageEyesPath}Eyes.svg');
-            }
+            @include CharacterResizeHover("eyes-title");
         }
 
         &.secondary {
@@ -47,12 +43,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageEyesPath}Eyes2.svg');
-            }
+            @include CharacterResizeHover("eyes-title");
         }
 
         &.third {
@@ -61,12 +52,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageEyesPath}Eyes3.svg');
-            }
+            @include CharacterResizeHover("eyes-title");
         }
 
         &.fourth {
@@ -75,12 +61,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageEyesPath}Eyes4.svg');
-            }
+            @include CharacterResizeHover("eyes-title");
         }
 
         &.fifth {
@@ -89,12 +70,7 @@ $ImageEyesPath : '#{$ImagesRoot}characters/Basic/Eyes/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageEyesPath}Eyes5.svg');
-            }
+            @include CharacterResizeHover("eyes-title");
         }
     }
 }

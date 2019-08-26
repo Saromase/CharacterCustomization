@@ -27,12 +27,7 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
             width: 100px;
 
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageHairPath}Hair.svg');
-            }
+            @include CharacterResizeHover('hair-title');
         }
 
         &.secondary {
@@ -41,12 +36,7 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageHairPath}Hair2.svg');
-            }
+            @include CharacterResizeHover('hair-title');
         }
 
         &.third {
@@ -55,12 +45,7 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageHairPath}Hair3.svg');
-            }
+            @include CharacterResizeHover('hair-title');
         }
 
         &.fourth {
@@ -69,12 +54,7 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageHairPath}Hair4.svg');
-            }
+            @include CharacterResizeHover('hair-title');
         }
 
         &.fifth {
@@ -83,12 +63,7 @@ $ImageHairPath : '#{$ImagesRoot}characters/Basic/Hair/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageHairPath}Hair5.svg');
-            }
+            @include CharacterResizeHover('hair-title');
         }
     }
 }

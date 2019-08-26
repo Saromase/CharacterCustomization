@@ -27,12 +27,7 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
             width: 100px;
 
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageNosePath}Nose.svg');
-            }
+            @include CharacterResizeHover('nose-title');
         }
 
         &.secondary {
@@ -41,12 +36,7 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageNosePath}Nose2.svg');
-            }
+            @include CharacterResizeHover('nose-title');
         }
 
         &.third {
@@ -55,12 +45,7 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageNosePath}Nose3.svg');
-            }
+            @include CharacterResizeHover('nose-title');
         }
 
         &.fourth {
@@ -69,12 +54,7 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageNosePath}Nose4.svg');
-            }
+            @include CharacterResizeHover('nose-title');
         }
 
         &.fifth {
@@ -83,12 +63,7 @@ $ImageNosePath : '#{$ImagesRoot}characters/Basic/Nose/';
             height: 150px;
             width: 100px;
 
-            &:hover {
-                height: 300px;
-                width: 200px;
-                background-size: 200px 300px;
-                background-image: url('#{$ImageNosePath}Nose5.svg');
-            }
+            @include CharacterResizeHover('nose-title');
         }
     }
 }
